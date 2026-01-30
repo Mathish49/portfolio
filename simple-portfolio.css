@@ -61,7 +61,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(30, 58, 138, 0.95);
+  background: var(--bleu-clair);
   padding: 1rem 2rem;
   z-index: 100;
   display: flex;
