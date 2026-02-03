@@ -191,7 +191,7 @@ header p {
 
 @keyframes scroll {
   from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  to { transform: translateX(75%); }
 }
 
 /* --- FOOTER --- */
@@ -199,16 +199,17 @@ footer { padding: 10rem 10% 2rem; text-align: left; }
 .footer-top h2 { font-size: clamp(3rem, 8vw, 6rem); line-height: 0.9; margin-bottom: 2rem; }
 .footer-top span { color: var(--yellow); }
 
-.huge-mail {
+.huge {
   font-size: clamp(1rem, 4vw, 2.5rem);
   color: var(--white);
   text-decoration: none;
   font-weight: 700;
   border-bottom: 4px solid var(--yellow);
   transition: 0.3s;
+  margin: 100px
 }
 
-.huge-mail:hover { color: var(--yellow); }
+.huge:hover { color: var(--yellow); }
 
 .footer-bottom {
   margin-top: 10rem;
