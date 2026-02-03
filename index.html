@@ -3,92 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mathis Huet | Développeur Informatique</title>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <title>MATHIS HUET | DEV</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Syne:wght@800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="simple-portfolio.css">
 </head>
 <body>
 
 <nav>
-  <div class="logo">MH<span>.</span></div>
+  <div class="logo">M<span>.</span>HUET</div>
   <div class="nav-links">
-    <a href="#projets">Projets</a>
-    <a href="#skills">Compétences</a>
-    <a href="#contact">Contact</a>
+    <a href="#projets">WORK</a>
+    <a href="#about">INFOS</a>
+    <a href="mailto:huetmathis.pr@gmail.com" class="nav-cta">CONTACT</a>
   </div>
 </nav>
 
 <header>
-  <div class="hero-content">
-    <span class="badge-dev">Disponible pour un stage / alternance</span>
-    <h1>Mathis Huet</h1>
-    <p class="tagline">Étudiant en <span>BUT Informatique</span> & passionné par le développement de solutions innovantes.</p>
-    <div class="header-btns">
-      <a href="CV Mathis.pdf" class="btn primary"><i class="fas fa-download"></i> Télécharger CV</a>
-      <a href="https://www.linkedin.com/in/mathis-huet-46211a3a0/" class="btn secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  <div class="hero-inner">
+    <h2 class="reveal">BUT INFORMATIQUE</h2>
+    <h1 class="reveal delay-1">MATHIS<br>HUET<span>.</span></h1>
+    <p class="reveal delay-2">Développeur en quête de défis algorithmiques et d'interfaces qui claquent. Actuellement basé en France.</p>
+    <div class="hero-actions reveal delay-3">
+      <a href="CV Mathis.pdf" class="btn-main">TÉLÉCHARGER CV</a>
+      <a href="https://www.linkedin.com/in/mathis-huet-46211a3a0/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
     </div>
   </div>
-  <div class="scroll-indicator"></div>
 </header>
 
-<section id="skills">
-  <div class="container">
-    <h2 class="section-title">Mes Compétences</h2>
-    <div class="skills-grid">
-      <div class="skill-card">
-        <i class="fab fa-python"></i>
-        <h3>Python / Pygame</h3>
-        <p>Développement de jeux et scripts d'automatisation.</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-code-branch"></i>
-        <h3>Algorithmique</h3>
-        <p>Optimisation de problèmes complexes et structures de données.</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-laptop-code"></i>
-        <h3>Web Dev</h3>
-        <p>Création d'interfaces modernes et responsives (HTML, CSS, JS).</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="projets">
-  <div class="container">
-    <h2 class="section-title">Projets Sélectionnés</h2>
-    
-    <div class="projects-container">
-      <article class="project-card">
-        <div class="project-info">
-          <span class="badge">Scolaire</span>
-          <h3>Jeu d'Économie Mondiale</h3>
-          <p>Un jeu de cartes stratégique développé avec Pygame. Gestion de ressources, échanges commerciaux et IA de décision simplifiée.</p>
-          <div class="tags"><span>Python</span> <span>Pygame</span> <span>Game Design</span></div>
-        </div>
-      </article>
+  <div class="section-header">
+    <span class="eyebrow">SÉLECTION DE PROJETS</span>
+    <h2>PROJETS<span>_</span></h2>
+  </div>
 
-      <article class="project-card">
-        <div class="project-info">
-          <span class="badge">Algorithmique</span>
-          <h3>Simulateur de Particules</h3>
-          <p>Recherche et réalisation de problèmes algorithmiques appliqués à la physique des fluides et des collisions. Optimisation des performances CPU.</p>
-          <div class="tags"><span>Maths</span> <span>Algorithmie</span> <span>Optimisation</span></div>
+  <div class="grid-projects">
+    <article class="project-card">
+      <div class="project-content">
+        <span class="project-cat">PYTHON / ÉCONOMIE</span>
+        <h3>Global Economy Card Game</h3>
+        <p>Simulation complexe de marchés mondiaux via un moteur de jeu Pygame. Intelligence artificielle de trading intégrée.</p>
+        <div class="project-footer">
+          <span class="tag">#Pygame</span>
+          <span class="tag">#Algo</span>
         </div>
-      </article>
-    </div>
+      </div>
+      <div class="project-arrow">→</div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-content">
+        <span class="project-cat">ALGORITHMIE</span>
+        <h3>Particle System Engine</h3>
+        <p>Moteur de rendu de particules haute performance. Optimisation mathématique pour la gestion des collisions en temps réel.</p>
+        <div class="project-footer">
+          <span class="tag">#Maths</span>
+          <span class="tag">#Performance</span>
+        </div>
+      </div>
+      <div class="project-arrow">→</div>
+    </article>
   </div>
 </section>
 
-<section id="cta">
-  <h2>Prêt à lancer un nouveau projet ?</h2>
-  <p>Je suis actuellement à la recherche de nouvelles opportunités pour mettre mes compétences à votre service.</p>
-  <a href="mailto:huetmathis.pr@gmail.com" class="btn primary">Me contacter par mail</a>
+<section id="about">
+  <div class="marquee">
+    <span>DYNAMIQUE • CRÉATIF • RIGOUREUX • CURIEUX • DYNAMIQUE • CRÉATIF • RIGOUREUX • CURIEUX • </span>
+  </div>
 </section>
 
 <footer>
-  <p>2026 Mathis Huet — Conçu avec passion</p>
+  <div class="footer-top">
+    <a href="mailto:huetmathis.pr@gmail.com" class="huge-mail">huetmathis.pr@gmail.com</a>
+  </div>
+  <div class="footer-bottom">
+    <p>2026 MATHIS HUET</p>
+  </div>
 </footer>
 
 </body>
