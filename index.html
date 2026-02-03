@@ -2,40 +2,93 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio - Mathis Huet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathis Huet | Développeur Informatique</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="simple-portfolio.css">
 </head>
 <body>
+
 <nav>
-  <a href="#projets">Projets</a>
-  <a href="#about">À propos</a>
-  <a href="#contact">Contact</a>
+  <div class="logo">MH<span>.</span></div>
+  <div class="nav-links">
+    <a href="#projets">Projets</a>
+    <a href="#skills">Compétences</a>
+    <a href="#contact">Contact</a>
+  </div>
 </nav>
 
-
 <header>
-  <h1>Mathis Huet</h1>
-  <p>Étudiant en BUT informatique</p>
-    <a href="CV Mathis.pdf" class="btn">Télécharger mon CV</a>
-    <a href="https://www.linkedin.com/in/mathis-huet-46211a3a0/" class="btn">LinkedIn</a>
- 
+  <div class="hero-content">
+    <span class="badge-dev">Disponible pour un stage / alternance</span>
+    <h1>Mathis Huet</h1>
+    <p class="tagline">Étudiant en <span>BUT Informatique</span> & passionné par le développement de solutions innovantes.</p>
+    <div class="header-btns">
+      <a href="CV Mathis.pdf" class="btn primary"><i class="fas fa-download"></i> Télécharger CV</a>
+      <a href="https://www.linkedin.com/in/mathis-huet-46211a3a0/" class="btn secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </div>
+  <div class="scroll-indicator"></div>
 </header>
 
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Mes Compétences</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fab fa-python"></i>
+        <h3>Python / Pygame</h3>
+        <p>Développement de jeux et scripts d'automatisation.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-code-branch"></i>
+        <h3>Algorithmique</h3>
+        <p>Optimisation de problèmes complexes et structures de données.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Web Dev</h3>
+        <p>Création d'interfaces modernes et responsives (HTML, CSS, JS).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="projets">
-  <h2>Projets</h2>
-  <article>
-    <h3 href="">Jeu de cartes en Pygame sur le theme de l'Economie mondiale</h3>
-    <p>Projet réalisé en cours de Economie / Developpement</p>
-  </article>
-  <article>
-    <h3 href="">Projet "particules" axé algorithmique</h3>
-    <p>Recherche et réalisation de problèmes algorithmiques
-    </p>
-  </article>
+  <div class="container">
+    <h2 class="section-title">Projets Sélectionnés</h2>
+    
+    <div class="projects-container">
+      <article class="project-card">
+        <div class="project-info">
+          <span class="badge">Scolaire</span>
+          <h3>Jeu d'Économie Mondiale</h3>
+          <p>Un jeu de cartes stratégique développé avec Pygame. Gestion de ressources, échanges commerciaux et IA de décision simplifiée.</p>
+          <div class="tags"><span>Python</span> <span>Pygame</span> <span>Game Design</span></div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-info">
+          <span class="badge">Algorithmique</span>
+          <h3>Simulateur de Particules</h3>
+          <p>Recherche et réalisation de problèmes algorithmiques appliqués à la physique des fluides et des collisions. Optimisation des performances CPU.</p>
+          <div class="tags"><span>Maths</span> <span>Algorithmie</span> <span>Optimisation</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="cta">
+  <h2>Prêt à lancer un nouveau projet ?</h2>
+  <p>Je suis actuellement à la recherche de nouvelles opportunités pour mettre mes compétences à votre service.</p>
+  <a href="mailto:huetmathis.pr@gmail.com" class="btn primary">Me contacter par mail</a>
 </section>
 
 <footer>
-  <p>Contact : huetmathis.pr@gmail.com</p>
+  <p>2026 Mathis Huet — Conçu avec passion</p>
 </footer>
 
 </body>
